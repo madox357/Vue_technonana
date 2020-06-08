@@ -20,7 +20,9 @@
                 </a>
                 <div class="portfolio-caption">
                     <h4>{{ obj.caption }}</h4>
+                    
                     <p class="text-muted">{{ obj.title }}</p>
+                    <p class="text-muted">{{ obj.link }}</p>
                 </div>
             </div>
         </div>
@@ -33,24 +35,25 @@ export default {
     data: () => ({
         portfolioJSON: [
             {
-                img: '/something/random/img.jpg',
-                caption: 'Explore',
-                title: 'Graphic Design'
+                img: './assets/img/JScalc.jpg',
+                caption: ' Calculator',
+                title: 'Vanilla JS',
+                link: 'link'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Finish',
-                title: 'Identify'
+                caption: 'Chat app',
+                title: 'Vue'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Lines',
-                title: 'Branding'
+                caption: 'Weather App',
+                title: 'Vue'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Southwest',
-                title: 'Website Design'
+                caption: 'Number Guesser',
+                title: 'Python'
             },
             {
                 img: '/something/random/img.jpg',
@@ -59,13 +62,18 @@ export default {
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Coffee',
-                title: 'Drink a Lot!' 
+                caption: 'Bookstore',
+                title: 'MEAN stack project' 
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Pizza',
-                title: 'I Ate some Pizza!'
+                caption: 'Limbu.co',
+                title: 'Progressive Vue page'
+            },
+            {
+                img: '',
+                caption: 'new',
+                title: 'title'
             }
         ]
     })

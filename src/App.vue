@@ -15,16 +15,16 @@
               <a class="nav-link js-scroll-trigger" href="#services">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+              <a class="nav-link js-scroll-trigger" href="#team">Tools</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacts</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -97,7 +97,7 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -133,7 +133,8 @@
                     <h4 class="subheading">My Website Development shop is born (www.technonana.com)</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Started making use of Elementor, Wordpress, Weebly to produce websites.  Started revisiting javascript frameworks, found vue to be a comfortable fit.</p>
+                    <p class="text-muted">Started making use of Elementor, Wordpress, Weebly to produce websites.  
+                                          Revisiting javascript frameworks, found Angular&Vue to be a comfortable fit.</p>
                   </div>
                 </div>
               </li>
@@ -144,10 +145,12 @@
                 <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4>2020</h4>
-                    <h4 class="subheading">Transition to Vue</h4>
+                    <h4 class="subheading">Transition to Vue JS Framework</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Got confident with the vue cli to produce for multiple projects which led me to transition towards powerful JS frameworks.</p>
+                    <p class="text-muted">Got comfortable with the Vue initiatives and started 
+                                          to produce for multiple projects which led me to transition 
+                                          towards choosing this progressive JS framework.</p>
                   </div>
                 </div>
               </li>
@@ -169,16 +172,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">My Tools </h2>
+            <h3 class="section-subheading text-muted">Following are some of the technologies that I utilise.</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
+              <h4>Visual Studio Code</h4>
+              <p class="text-muted">Code Editor of choice</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -201,8 +204,8 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
+              <h4>VUE JS framework</h4>
+              <p class="text-muted">Javascript choice of framework for interactive application</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -225,8 +228,8 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
+              <h4>Firebase</h4>
+              <p class="text-muted">Web hosting facility</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -288,8 +291,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Contact Me</h2>
+            <h3 class="section-subheading text-muted">Message me by filling out the form with a short description of your requirement, also check out the links below to contact me in other ways.</h3>
           </div>
         </div>
         <div class="row">
@@ -333,7 +336,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Technonana 2018</span>
+            <span class="copyright">Copyright &copy; Technonana 2020</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -348,7 +351,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/bijaya-limbu-6873a2140/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
