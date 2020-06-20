@@ -36,7 +36,7 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Bijaya Limbu</div>
-          <div class="intro-heading text-uppercase">Frontend Developer</div>
+          <div class="intro-heading text-uppercase">Vue Developer</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Projects</a>
         </div>
       </div>
@@ -47,7 +47,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Projects</h2>
+            <h2 class="section-heading text-uppercase">Current Projects</h2>
             <h3 class="section-subheading text-muted">Please find below some of my projects along with their source code.</h3>
           </div>
         </div>
@@ -58,7 +58,7 @@
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Vanilla JavaScript Calculator</h4>
-            <p class="text-muted">BASIC FUNCTIONS OF A CUSTOM CALCULATOR WRITTEN IN JAVASCRIPT</p>
+            <p class="text-muted">Fully functional JavaScript Calculator used to explain properties.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -74,14 +74,14 @@
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Vue with random generator</h4>
-            <p class="text-muted">TAKES IN 2 OR MORE VALUE IN ORDER TO ENABLE RANDOM GENERATOR WHICH PICKS ONE INDIVIDUAL TO PAY FOR FOOD, USING VUECLI AND NODE PACKET MANAGER.</p>
+            <p class="text-muted">Takes in two or more value in order to enable random generator which picks one individual to pay for food, using vue cli and node packet manager.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Portfolio Grid -->
-    <Portfolio></Portfolio>
+    
 
     <!-- About -->
     <section id="about">
@@ -119,7 +119,7 @@
                     <h4 class="subheading">My Computer Repair shop is born (www.computerrepairashford.weebly.com)</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">I still get the occassional emergency appointments referrals which im happy to respond to.</p>
+                    <p class="text-muted">I still get the occassional jobs which im happy to respond to.</p>
                   </div>
                 </div>
               </li>
@@ -252,7 +252,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            <p class="large text-muted">Thank you for visiting.</p>
           </div>
         </div>
       </div>
@@ -372,7 +372,7 @@
     </footer>
 
     <!-- Portfolio Modals -->
-
+    <Portfolio></Portfolio>
     <!-- Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -387,9 +387,9 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <h2 class="text-uppercase">Calculator</h2>
+                  <p class="item-intro text-muted">Fully functional javascript calculator used to teach basics of JS.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/JScalc.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
@@ -423,12 +423,12 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/JScalc.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Category: 2Graphic Design</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -603,4 +603,13 @@ export default {
 body {
   background: black;
 }
+
+.intro-lead-in {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+.intro-heading  {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
 </style>
