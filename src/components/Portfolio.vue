@@ -74,6 +74,9 @@ export default {
                 img: '',
                 caption: 'new',
                 title: 'title'
+            },
+            {
+                caption:'latest'
             }
         ]
     })
