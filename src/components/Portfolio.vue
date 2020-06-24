@@ -37,8 +37,8 @@ export default {
             {
                 img: './assets/img/JScalc.jpg',
                 caption: ' Calculator',
-                title: 'Vanilla JS',
-                link: 'link'
+                title: 'Vanilla JS'
+                
             },
             {
                 img: '/something/random/img.jpg',

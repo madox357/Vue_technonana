@@ -421,14 +421,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Calculator</h2>
+                  <p class="item-intro text-muted">Fully functional javascript calculator used to teach basics of JS.</p>
                   <img class="img-fluid d-block mx-auto" src="img/JScalc.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>Showing the basics of web application design, the app was tested in a codepen editor before
+                    using vs code to better understand javascript, following a course from WebDev Simplified. I've 
+                    used this guide to better understand modern JavaScript practices.
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: 2Graphic Design</li>
+                    <li>Date: January 2020</li>
+                    <li>Language: JavaScript</li>
+                    <li>Category: Web app</li>
+                    <li>Learn: <a href="https://www.youtube.com/watch?v=j59qQ7YWLxw&t=80s">WebDev Simplified</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
