@@ -97,7 +97,9 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="" alt="">
+                  <a href="https://www.northampton.ac.uk/">
+                    <img class="rounded-circle img-fluid" src="./assets/img/uon.png" alt="">
+                  </a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -111,12 +113,14 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="./assets/img/E.png" alt="">
+                  <a href="https://computerrepairashford.weebly.com/">
+                    <img class="rounded-circle img-fluid" src="./assets/img/repair.png" alt="computerrepairashford">
+                  </a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4> 2016</h4>
-                    <h4 class="subheading">My Computer Repair shop is born (www.computerrepairashford.weebly.com)</h4>
+                    <h4 class="subheading">My Computer Repair shop is born.</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">I still get the occassional jobs which im happy to respond to.</p>
@@ -125,22 +129,26 @@
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="./assets/img/logo.png" alt="">
+                  <a href="https://technonana.com/">
+                    <img class="rounded-circle img-fluid" src="./assets/img/logo.png" alt="Technonana.com">
+                  </a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
                     <h4>2018</h4>
-                    <h4 class="subheading">My Website Development shop is born (www.technonana.com)</h4>
+                    <h4 class="subheading">My Web Development shop is born. </h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">Started making use of Elementor, Wordpress, Weebly to produce websites.  
-                                          Revisiting javascript frameworks, found Angular&Vue to be a comfortable fit.</p>
+                                          Revisiting javascript frameworks, found Angular & Vue to be a comfortable fit.</p>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="./assets/img/E.png" alt="">
+                  <a href="https://technonana.herokuapp.com/">
+                    <img class="rounded-circle img-fluid" src="./assets/img/E.png" alt="Vue website">
+                  </a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
