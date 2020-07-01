@@ -630,6 +630,8 @@ body {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 }
 
-
+.rounded-circle {
+  color: #42b983;
+}
 
 </style>
