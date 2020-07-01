@@ -323,6 +323,7 @@
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
                   <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                
                 </div>
               </div>
             </form>
@@ -337,6 +338,7 @@
         <div class="row">
           <div class="col-md-4">
             <span class="copyright">Copyright &copy; Technonana 2020</span>
+            
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -573,6 +575,8 @@
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Close Project</button>
+                    
+
                 </div>
               </div>
             </div>
@@ -581,6 +585,7 @@
       </div>
     </div>
   </div>
+  
 </template>
 
 <script>
@@ -596,6 +601,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -615,6 +621,7 @@ body {
 .intro-heading  {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 }
+
 
 
 </style>

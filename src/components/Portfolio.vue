@@ -4,13 +4,13 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">Please find below some of my projects along with their source code.</h3>
+            <h3 class="section-subheading ">Please find below some of my projects along with their source code.</h3>
           </div>
         </div>
         <div class="row">
           
             <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fas fa-plus fa-3x"></i>
