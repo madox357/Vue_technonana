@@ -8,7 +8,7 @@
           </div>
         </div>
         <div class="row">
-          
+          <!-- Comment -->
             <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
                 <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                     <div class="portfolio-hover">
@@ -16,13 +16,14 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+                    <img class="img-fluid" src="/assets/img/longon.jpg" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>{{ obj.caption }}</h4>
                     
                     <p class="text-muted">{{ obj.title }}</p>
-                    <p class="text-muted">{{ obj.link }}</p>
+                    <a v-bind:href="obj.link">Github Link</a>
+                    <p class="text-muted">{{ obj.subtitle }}</p>
                 </div>
             </div>
         </div>
@@ -37,18 +38,22 @@ export default {
             {
                 img: './assets/img/JScalc.jpg',
                 caption: ' Calculator',
-                title: 'Vanilla JS'
+                title: 'Vanilla JS',
+                subtitle:'Vanilla JS calculator',
+                link:'https://madox357.github.io/Vanilla-JavaScript-Calculator/'
                 
             },
             {
                 img: '/something/random/img.jpg',
                 caption: 'Chat app',
-                title: 'Vue'
+                title: 'Vue',
+                link:'https://bjs-chatapp.herokuapp.com/'
             },
             {
                 img: '/something/random/img.jpg',
                 caption: 'Weather App',
-                title: 'Vue'
+                title: 'Vue',
+                link:'https://quirky-volhard-99400e.netlify.app/'
             },
             {
                 img: '/something/random/img.jpg',

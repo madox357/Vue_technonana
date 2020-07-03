@@ -82,6 +82,7 @@
 
     <!-- Portfolio Grid -->
      <Portfolio></Portfolio>
+     <SubPortfolio></SubPortfolio>
 
     <!-- About -->
     <section id="about">
@@ -599,11 +600,14 @@
 <script>
 
 import Portfolio from './components/Portfolio'
+import SubPortfolio from './components/SubPortfolio'
+
 
 export default {
   name: 'app',
   components: {
-    Portfolio
+    Portfolio,
+    SubPortfolio
   }
 }
 </script>
