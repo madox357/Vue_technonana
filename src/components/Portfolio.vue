@@ -57,8 +57,9 @@ export default {
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Number Guesser',
-                title: 'Python'
+                caption: 'Food game',
+                title: 'Random name generator',
+                link:'https://madox357.github.io/Vue_Who_Pays_Bill/'
             },
             {
                 img: '/something/random/img.jpg',
@@ -67,18 +68,21 @@ export default {
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Bookstore',
-                title: 'MEAN stack project' 
+                caption: 'Book Store',
+                title: 'MEAN stack project',
+                link:''
             },
             {
                 img: '/something/random/img.jpg',
                 caption: 'Limbu.co',
-                title: 'Progressive Vue page'
+                title: 'Progressive Vue page',
+
             },
             {
                 img: '',
-                caption: 'new',
-                title: 'title'
+                caption: 'Plain HTML',
+                title: 'HTML page initial build',
+                link: 'https://madox357.github.io/PlainHTML-CSS/'
             },
             {
                 caption:'latest'
