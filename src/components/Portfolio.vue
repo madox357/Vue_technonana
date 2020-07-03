@@ -10,7 +10,8 @@
         <div class="row">
           <!-- Comment -->
             <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                <a class="portfolio-link" data-toggle="modal" :href="obj.link">
+                    <!--yello hover on-click-->
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fas fa-plus fa-3x"></i>
@@ -22,7 +23,8 @@
                     <h4>{{ obj.caption }}</h4>
                     
                     <p class="text-muted">{{ obj.title }}</p>
-                    <a v-bind:href="obj.link">Github Link</a>
+                    <!--passing the link using v-bind directive to get specific link -->
+                    <a class="text-muted" v-bind:href="obj.link">Github Link</a>
                     <p class="text-muted">{{ obj.subtitle }}</p>
                 </div>
             </div>
@@ -76,6 +78,7 @@ export default {
                 img: '/something/random/img.jpg',
                 caption: 'Limbu.co',
                 title: 'Progressive Vue page',
+                link:'http://limbu.co/'
 
             },
             {
